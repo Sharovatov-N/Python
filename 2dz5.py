@@ -12,13 +12,15 @@ while True:
         if my_list[el] > rating > my_list[el + 1]:
             my_list.insert(el + 1, rating)
             break
-        elif my_list[el] == rating:
+        elif my_list[el] == rating > my_list[el + 1]:
             my_list.insert(el + 1, rating)
             break
         elif my_list[0] < rating:
             my_list.insert(0, rating)
-        elif my_list[-1] > rating:
+            break
+        elif my_list[-1] >= rating:
             my_list.append(rating)
+            break
 
     print(f'текущий список рейтинга - {my_list}')
     rating = float(input('Введите Ваш рейтинг: '))
