@@ -1,0 +1,10 @@
+Abramson 12306.46
+Babcock 91430.09
+Calhoun 20000.01
+Daniels 19999.99
+Eddington 31000.00
+Faber 17896.79
+Galbraith 2000.10
+Haig 17965.09
+Jacobson 25000.73
+Keat 56987.55
